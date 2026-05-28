@@ -29,3 +29,8 @@ pi install git:github.com/liborw/pi-startup-time
 ```bash
 pi -e ./src/index.ts
 ```
+
+## Publishing
+
+GitHub Actions publishes to npm automatically when you push a `v*` tag or publish a GitHub release.
+Set the repository secret `NPM_TOKEN` before using the workflow.
