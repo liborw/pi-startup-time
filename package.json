@@ -1,0 +1,27 @@
+{
+  "name": "@liborw/pi-startup-time",
+  "version": "0.1.0",
+  "description": "pi package that measures startup time and shows the latest reading in the status line",
+  "type": "module",
+  "keywords": ["pi-package", "pi-extension"],
+  "license": "MIT",
+  "author": "liborw",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/liborw/pi-startup-time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liborw/pi-startup-time/issues"
+  },
+  "homepage": "https://github.com/liborw/pi-startup-time#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": ["./src/index.ts"]
+  },
+  "files": ["src", "README.md", "LICENSE"]
+}
